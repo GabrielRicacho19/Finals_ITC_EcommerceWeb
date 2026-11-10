@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home | BRAND</title>
+
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        
+        <!-- Main Navigation -->
+        <div class="container nav">
+
+            <a class="logo" href="index.html">
+                BRAND<span>name</span>
+            </a>
+
+            <nav>
+                <span class="nav-pill"></span>
+                
+                <a class="active" href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">Our Story</a>
+                <!-- <a href="contact.html">Contact</a> -->
+            </nav>
+
+            <div class="search-container">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search accessories..."
+                >
+
+                <button onclick="searchProducts()">
+                    <img src="images/magnifier.png" alt="Search">
+                </button>
+
+            </div>
+
+            <a class="cart-icon" href="cart.html">
+                <img src="images/shopping-bag.png" alt="Shopping Cart">
+            </a>
+
+        </div>
+
+        <!-- MEGA MENU -->
+        <div class="mega-menu">
+
+        <div class="mega-menu-inner">
+
+            <!-- Featured Links -->
+            <div class="mega-menu-featured">
+
+                <a href="shop.html">Discover what's new</a>
+                <a href="shop.html">Explore our collection</a>
+                <a href="shop.html">Best sellers</a>
+                <a href="shop.html">New arrivals</a>
+                <a href="about.html">About NEN TECH</a>
+
+            </div>
+
+
+            <!-- Product Categories -->
+            <div class="mega-menu-column">
+
+                <h3>Shop by category</h3>
+
+                <a href="shop.html">Mechanical Keyboards</a>
+                <a href="shop.html">Computer Mice</a>
+                <a href="shop.html">Headphones</a>
+                <a href="shop.html">Mousepads</a>
+                <a href="shop.html">Desk Accessories</a>
+
+            </div>
+
+
+            <!-- Customer Information -->
+            <div class="mega-menu-column">
+
+                <h3>Customer Support</h3>
+
+                <a href="contact.html">Contact Us</a>
+                <a href="contact.html">Customer Assistance</a>
+                <a href="about.html">Our Story</a>
+                <a href="cart.html">Shopping Bag</a>
+
+            </div>
+
+
+            <!-- Promotional Card -->
+            <a href="shop.html" class="mega-menu-promo">
+
+                <img
+                    src="image/desktop.png"
+                    alt="Modern computer setup"
+                >
+
+                <div class="mega-menu-promo-content">
+
+                    <h3>Upgrade your workspace</h3>
+
+                    <p>
+                        Discover accessories that make
+                        every setup better.
+                    </p>
+
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="container hero">
+
+            <div class="hero-copy">
+
+                <span class="eyebrow">
+                    Upgrade your space. Elevate your setup.
+                </span>
+
+                <h1>
+                    Build a setup that works your way.
+                </h1>
+
+                <p>
+                    Discover thoughtfully selected computer accessories,
+                    gaming peripherals, and desk essentials designed to
+                    improve your productivity, comfort, and everyday
+                    experience.
+                </p>
+
+                <a class="btn" href="shop.html">
+                    Explore the collection
+                </a>
+
+                <a class="btn btn-outline" href="about.html">
+                    Discover our brand
+                </a>
+
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=1000&q=85"
+                >
+            </div>
+
+        </section>
+
+        <!-- Customer Favorites Section -->
+        <section class="section" style="background:#fff">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <div>
+                        <span class="eyebrow">Popular picks</span>
+                        <h2>Setup essentials</h2>
+                    </div>
+
+                    <a href="shop.html">View all products →</a>
+
+                </div>
+
+                <!-- Product Cards -->
+                <div class="products">
+
+                    <!-- Product 1 -->
+                    <article class="product-card">
+
+                        <a class="product-photo" href="product.html">
+                            <img
+                                src="https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=800&q=85"
+                            >
+                        </a>
+
+                        <div class="product-info">
+
+                            <span class="tag">BESTSELLER</span>
+
+                            <h3>Nova Mechanical Keyboard</h3>
+
+                            <p>
+                                A satisfying typing experience with a
+                                clean and minimalist design.
+                            </p>
+
+                            <span class="price">₱2,490</span>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Product 2 -->
+                    <article class="product-card">
+
+                        <a class="product-photo" href="product.html">
+                            <img
+                                src="image/mouse.jpeg"
+                            >
+                        </a>
+
+                        <div class="product-info">
+
+                            <span class="tag">POPULAR PICK</span>
+
+                            <h3>Precision Wireless Mouse</h3>
+
+                            <p>
+                                Smooth tracking and comfortable control
+                                for work and gaming.
+                            </p>
+
+                            <span class="price">₱1,290</span>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Product 3 -->
+                    <article class="product-card">
+
+                        <a class="product-photo" href="product.html">
+                            <img
+                                src="image/mousepad.jpeg"
+                            >
+                        </a>
+
+                        <div class="product-info">
+
+                            <span class="tag">NEW ARRIVAL</span>
+
+                            <h3>Essential Desk Mat</h3>
+
+                            <p>
+                                Add comfort and a polished look to your
+                                everyday workspace.
+                            </p>
+
+                            <span class="price">₱890</span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Promotional Banner Section -->
+        <section class="section container">
+
+            <div class="banner">
+
+                <div>
+
+                    <span class="eyebrow">
+                        Designed for your everyday setup
+                    </span>
+
+                    <h2>
+                        Better gear. Better workflow. Better everyday experiences.
+                    </h2>
+
+                </div>
+
+                <a class="btn" href="shop.html">
+                    Find your next upgrade
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <!-- Footer Brand -->
+                <div>
+
+                    <a class="logo" href="index.html">
+                        NEN<span>tech</span>
+                    </a>
+
+                    <p>
+                        Quality accessories for work, play, and everything in between.
+                    </p>
+
+                </div>
+
+                <!-- Footer Navigation Links -->
+                <div class="footer-links">
+
+                    <a href="shop.html">Shop</a>
+                    <a href="about.html">Our Story</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="cart.html">Shopping Bag</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
